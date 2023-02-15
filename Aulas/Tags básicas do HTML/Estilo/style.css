@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(31, 31, 31);
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+a {
+  color: rgb(109, 107, 107);
+  font-size: 30px;
+}
+
+img {
+  position: absolute;
+  margin-top: 100px;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h2 {
+  color: aquamarine;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+strong {
+  color: aqua;
+}
+
+s {
+  color: rgb(255, 17, 231);
+}

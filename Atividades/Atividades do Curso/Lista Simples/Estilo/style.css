@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(50, 50, 50);
+}
+
+a {
+  color: rgb(164, 143, 175);
+}
+
+h2 {
+  color: rgb(159, 153, 164);
+}
+
+p {
+  color: rgb(91, 95, 95);
+}
+
+ul {
+  color: rgb(180, 151, 180);
+}
+
+strong {
+  color: rgb(145, 162, 177);
+}
+
+.name {
+  color: rgb(132, 118, 149);
+}
+
+.date {
+  color: rgb(157, 150, 165);
+}
+
