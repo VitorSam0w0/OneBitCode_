@@ -17,6 +17,10 @@ h2 {
   background-attachment: fixed;
 
   cursor: text;
+
+  text-shadow: 10px 1px 10px rgb(0, 0, 0);
+
+  font-family: fantasy;
 }
 
 h3 {
@@ -27,10 +31,14 @@ h3 {
   align-items: center;
 
   cursor: text;
+
+  text-shadow: 10px 1px 10px rgb(0, 0, 0);
+
+  font-family: fantasy;
 }
 
 p {
-  color: rgb(186, 173, 198);
+  color: rgb(179, 150, 205);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -39,6 +47,10 @@ p {
   margin-right: 200px;
 
   cursor: text;
+
+  text-shadow: 10px 6px 10px rgb(119, 119, 119);
+
+  font-family: fantasy;
 }
 
 .resumos {
@@ -49,14 +61,26 @@ p {
   align-items: center;
   margin-left: 200px;
   margin-right: 200px;
+
+  text-shadow: 10px 6px 10px rgb(140, 140, 140);
+
+  font-family: fantasy;
 }
 
 .descricao {
   color: rgb(0, 0, 0);
+
+  text-shadow: 10px 1px 10px rgb(143, 103, 168);
+
+  font-family: fantasy;
 }
 
 .info {
-  color: rgb(255, 0, 0);
+  color: rgb(96, 9, 9);
+
+  text-shadow: 10px 1px 10px rgb(62, 62, 62);
+
+  font-family: fantasy;
 }
 
 a {
@@ -138,4 +162,17 @@ img {
 
   transition: all 0.5s;
   border: 6px solid transparent;
+}
+
+.butao {
+  font-family: fantasy;
+  color: gray;
+  border-left: 480px;
+  border-right: 480px;
+  border-top: 480px;
+  border-width: 0px;
+  font: bold15px arial, sans-serif;
+  background-attachment: fixed;
+
+  border-radius: 10px 10px 10px;
 }

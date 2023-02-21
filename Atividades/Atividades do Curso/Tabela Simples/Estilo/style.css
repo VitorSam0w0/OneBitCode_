@@ -1,0 +1,41 @@
+body {
+  background-image: url(../img/fundo2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  cursor: cell;
+}
+
+.tabela {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  color: rgb(26, 26, 26);
+  text-shadow: 1px 1px 1px gainsboro;
+  cursor: cell;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+
+  cursor: cell;
+}
+
+h2 {
+  display: flex;
+  -ms-flex-item-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  color: rgb(26, 26, 26);
+  text-shadow: 10px 5px 10px gainsboro;
+
+  cursor: cell;
+}
