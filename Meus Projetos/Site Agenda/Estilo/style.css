@@ -1,0 +1,82 @@
+body {
+  background-image: url("../img/download.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  cursor: grab;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+.anotacoes_img {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  filter: drop-shadow(10px 0px 30px rgb(6, 18, 108));
+}
+
+.anotacoes_img:hover {
+  transform: scale(1.01);
+  transition: 100ms linear;
+}
+
+.aprendizados {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  filter: drop-shadow(10px 0px 30px rgb(221, 231, 232));
+}
+
+.aprendizados1:hover {
+  transform: scale(1.5);
+  transition: 200ms linear;
+  border-radius: 500px;
+}
+
+.aprendizados2:hover {
+  transform: scale(1.5);
+  transition: 200ms linear;
+  border-radius: 500px;
+}
+
+.aprendizados3:hover {
+  transform: scale(1.5);
+  transition: 200ms linear;
+  border-radius: 500px;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulos1:hover {
+  transform: scale(1.4);
+  transition: 1000ms linear;
+}
+
+.titulos2:hover {
+  transform: scale(1.4);
+  transition: 1000ms linear;
+}
+
+.titulos3:hover {
+  transform: scale(1.4);
+  transition: 1000ms linear;
+}
