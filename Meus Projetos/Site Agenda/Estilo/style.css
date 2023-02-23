@@ -80,3 +80,22 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.4);
   transition: 1000ms linear;
 }
+
+.cat {
+  padding-top: 0px;
+  padding-left: 890px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.titulo_inicial_html {
+  padding-left: 150px;
+  font-size: xxx-large;
+  font-family: fantasy;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
