@@ -82,18 +82,41 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cat {
+  position: absolute;
+  width: 20%;
   padding-top: 0px;
-  padding-left: 890px;
+  padding-left: 840px;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
 }
 
+.cat:hover {
+  transform: scale(1.1);
+  transition: 2000ms linear;
+  border-radius: 500px;
+}
+
 .titulo_inicial_html {
-  padding-left: 150px;
+  color: rgb(247, 85, 40);
+  position: absolute;
+  width: 20%;
+  padding-top: 240px;
+  padding-left: 250px;
   font-size: xxx-large;
   font-family: fantasy;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  width: 20%;
+  padding-top: 324px;
+  padding-left: 410px;
   display: flex;
   flex-direction: row;
   justify-content: left;
